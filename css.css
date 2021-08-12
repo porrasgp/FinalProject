@@ -1,6 +1,5 @@
 /* <--Main css--> */
 
-
 .main {
   padding: 25p
 }
@@ -16,7 +15,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%);
 }
 
@@ -68,6 +66,7 @@ width: auto;
 .container-img2 {
   position: relative;
   bottom: 500px;
+  left: 300px;
   text-align: center;
   color: white;
   height: 300px;
@@ -76,11 +75,34 @@ width: auto;
 
 .text-img2 {
   position: absolute;
+  left: 1500px;
   top: 150px;
-  right: -400px;
+
 }
 
 .container-3 {
-  display: inline-flex;
+  display: flex;
+
+}
+
+
+.container-img3 {
+  position: relative;
+  left: 300px;
+  text-align: center;
+  color: white;
+  height: 300px;
+  width: 1000px;
+}
+
+.text-img3 {
+  position: absolute;
+  top: 150px;
+  left: 1500px;
+
+}
+
+.container-4 {
+  display: flex;
 
 }

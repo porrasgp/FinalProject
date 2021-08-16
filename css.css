@@ -1,11 +1,14 @@
-/* <--Main css--> */
+body {
+  background-color: #fafafa;
+}
 
+/* <--Main css--> */
 .main {
-  padding: 25p
+  padding: 25px;
 }
 
 .container-img {
-  position: relative;
+  position: flex;
   text-align: center;
   margin-bottom: 50px;
   color: white;
@@ -82,9 +85,14 @@ width: auto;
 
 .container-3 {
   display: flex;
-
+  flex-wrap: wrap;
+  align-content: center;
 }
 
+
+.container-3 div {
+    padding: 40px;
+}
 
 .container-img3 {
   position: relative;
@@ -99,10 +107,16 @@ width: auto;
   position: absolute;
   top: 150px;
   left: 1500px;
-
 }
 
 .container-4 {
   display: flex;
+
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container-4 div{
+    padding: 40px;
 
 }

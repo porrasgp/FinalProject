@@ -1,17 +1,53 @@
 body {
   background-color: #fafafa;
+  font-family: 'Poppins';
+  margin: o;
+  padding: 0;
 }
 
 /* <--Main css--> */
-.main {
-  padding: 25px;
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a,
+nav ul li a {
+    font-family: calibri;
+    font-size: 15px;
+    color: cadetblue;
+    margin: 25px;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
 
 .container-img {
   position: flex;
   text-align: center;
   margin-bottom: 50px;
   color: white;
+  max-width: 100%;
+  height: auto;
 }
 
 .text-img {
@@ -24,14 +60,12 @@ body {
 .first-absolute {
 position: relative;
 bottom: 400px;
-left: 450px;
 text-align: center;
 height: 450px;
 }
 
 .first {
   position: relative;
-  left: 60px;
   top: 100px;
   text-align: center;
   background: #2A7C6F;
@@ -39,17 +73,24 @@ height: 450px;
   height: 400px;
 }
 
-.info-box{
+.info-box1{
+  position: relative;
+  left: -139px;
   color: white;
   padding: 20px;
-  max-width: 700px;
+  max-width: 470px;
 }
 
+.info-box2{
+  color: white;
+  padding: 20px;
+  max-width: 770px;
+}
 
 .second-absolute {
 position: relative;
 bottom: 300px;
-right: 450px;
+right: 322px;
 text-align: center;
 height: 450px;
 width: auto;
@@ -57,7 +98,7 @@ width: auto;
 
 .second {
   position: relative;
-  left: 708px;
+  left: 835px;
   bottom: 750px;
   text-align: center;
   background: #2A7C6F;
@@ -68,7 +109,7 @@ width: auto;
 
 .container-img2 {
   position: relative;
-  bottom: 500px;
+  bottom: 650px;
   left: 300px;
   text-align: center;
   color: white;
@@ -86,16 +127,23 @@ width: auto;
 .container-3 {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
-}
+  position: relative;
+  top: -570px;
+  }
 
 
 .container-3 div {
-    padding: 40px;
+    padding: 10px;
+}
+
+.container3 div{
+    flex-direction: column;
+    padding: 10px;
 }
 
 .container-img3 {
   position: relative;
+  top: -540px;
   left: 300px;
   text-align: center;
   color: white;
@@ -109,14 +157,52 @@ width: auto;
   left: 1500px;
 }
 
+
+
 .container-4 {
   display: flex;
-
   flex-wrap: wrap;
-  flex-direction: column;
+  position: relative;
+  top:-465px;
 }
 
 .container-4 div{
-    padding: 40px;
+    flex-direction: column;
+    padding: 10px;
+}
 
+.text-img5 {
+  position: absolute;
+  left: 107px;
+  color: white;
+}
+
+h3.text-img5{
+position: relative;
+bottom: 120px;
+}
+/* FOOTER SECTION */
+
+
+.footer {
+    color: white;
+    padding: 2px;
+    max-width: 20000px;
+}
+
+
+footer{
+    background-color: #869bbf;
+    text-align: center;
+
+}
+
+.footnote{
+    padding: 10px 0 30px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.highlight{
+    color: rgb(38, 255, 56);
 }
